@@ -16,11 +16,11 @@ distanceAway = -13
 print(abs(distanceAway))
 lengthOfRootInGround = -2.5
 print(abs(lengthOfRootInGround))
-
 # pow()
 chanceOfTails = 0.5
 inARowTails = 3
 print(pow(chanceOfTails, inARowTails))
+
 
 chanceOfOne = .167
 inARowOne = 2
