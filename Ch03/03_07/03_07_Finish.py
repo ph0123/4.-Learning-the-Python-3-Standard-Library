@@ -2,7 +2,7 @@
 import zipfile
 
 # Open and List
-zip = zipfile.ZipFile('Archive.zip', 'r')
+zip = zipfile.ZipFile('../Archive.zip', 'r')
 print(zip.namelist())
 
 # Metadata in the zip folder

@@ -15,4 +15,5 @@ for c in itertools.combinations(colorsForPainting, 3):
     print(c)
 
 
-#Permutaion is easy with intertools.
+#Permutation is easy with intertools.
+#combination is a special one of permutation with C(n,k)

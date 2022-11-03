@@ -12,4 +12,4 @@ tempFile.seek(0)
 print(tempFile.read())
 
 # Close the temporary file
-tempFile.close()
+tempFile.close() #the file will be deleted.

@@ -21,3 +21,8 @@ for arg in arguments:
         print("Bad input")
 
 print(sum)
+
+#remember "import system"
+#import sys
+#sys.argv is a list of arguments. argv[0] is the program's name
+

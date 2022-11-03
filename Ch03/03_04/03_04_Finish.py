@@ -21,3 +21,5 @@ print("Reading..." + myFile.read(10))
 myFile.close()
 myFile = open("scores.txt", "r")
 print("Reading again" + myFile.read(10))
+
+#when open again, the pointer is starting from 0 again.
