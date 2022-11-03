@@ -6,8 +6,8 @@ print(math.factorial(3))
 print(math.sqrt(64))
 
 # Greatest Common Denominator GCD
-print(math.gcd(52, 8))
-print(math.gcd(8, 52))
+print(math.gcd(6, 8))
+print(math.gcd(8, 20))
 
 print(8/52)
 print(2/13)

@@ -2,8 +2,8 @@
 import random
 
 # Random Numbers
-print(random.random())
-decider = random.randrange(2)
+print(random.random()) #return random from 0 to 1
+decider = random.randrange(2) #return 0 or 1 because of range(2)
 if decider == 0:
     print("HEADS")
 else:

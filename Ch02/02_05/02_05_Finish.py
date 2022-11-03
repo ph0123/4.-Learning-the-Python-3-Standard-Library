@@ -5,9 +5,10 @@ import itertools
 for x in itertools.count(50, 5):
     print(x)
     if x == 80:
-        break;
+        break
 
-x = 0;
+x = 0; # ";" or NOT i ok with this program. It will support to 
+#write multiple lines of code in the same line.
 # Infinite Cycling
 for c in itertools.cycle([1, 2, 3, 4]):
     print(c)

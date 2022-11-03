@@ -13,3 +13,6 @@ for p1 in itertools.permutations(election.values()):
 colorsForPainting = ["Red", "Blue", "Purple", "Orange", "Yellow", "Pink"]
 for c in itertools.combinations(colorsForPainting, 3):
     print(c)
+
+
+#Permutaion is easy with intertools.
