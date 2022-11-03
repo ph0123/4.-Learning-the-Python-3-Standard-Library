@@ -6,7 +6,8 @@ import urllib.request
 import json
 import textwrap
 
-with urllib.request.urlopen("https://www.googleapis.com/books/v1/volumes?q=isbn:1101904224") as f:
+link= "https://www.googleapis.com/books/v1/volumes?q=isbn:1101904224"
+with urllib.request.urlopen(link) as f:
     text = f.read()
     decodedtext = text.decode('utf-8')
     print(textwrap.fill(decodedtext, width=50))
